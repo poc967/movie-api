@@ -12,7 +12,9 @@ module.exports = {
     "indent": [
       "error",
       2,
-      { "SwitchCase": 1 }
+      {
+        "SwitchCase": 1
+      }
     ],
     "linebreak-style": [
       "error",
@@ -27,5 +29,12 @@ module.exports = {
       "never"
     ],
     "camelcase": 0,
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "object-property-newline": ['error', {
+      "allowAllPropertiesOnSameLine": true
+    }]
   }
 };
